@@ -16,12 +16,11 @@ Pleasant Scrolling Cards UI in Swift
  
 For more information see ([Cocoapods.org](https://cocoapods.org/))
 
-## Usage
 ### Demo
 
 Check out the demo project for a working example.
 
-### Init and use a card scroller
+### Basic usage
 
 Init the card scroller and add some models:
 
