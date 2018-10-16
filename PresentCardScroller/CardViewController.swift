@@ -4,7 +4,6 @@
 //
 //  Created by Dan Federman on 2/3/17.
 //  Created by Pat Niemeyer
-//  Copyright © 2017 Present Company. All rights reserved.
 //
 
 import Foundation

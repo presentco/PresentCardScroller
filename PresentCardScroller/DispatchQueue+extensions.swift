@@ -3,7 +3,6 @@
 //  PresentCardScroller
 //
 //  Created by Patrick Niemeyer on 10/16/18.
-//  Copyright © 2018 co.present. All rights reserved.
 //
 
 import Foundation

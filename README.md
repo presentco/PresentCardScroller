@@ -23,7 +23,7 @@ Check out the demo project for a working example.
 
 ### Init and use a card scroller
 
-Init the card scroller and add some models.
+Init the card scroller and add some models:
 
 ```swift
     let cardScroller = CardScrollingViewController()
@@ -39,7 +39,7 @@ Init the card scroller and add some models.
     cardScroller.configure(with: models)
 ```
 
-To be notified of selected cards implement the delegate
+To be notified of selected cards implement the delegate:
 
 ```swift
     cardScroller.delegate = self
@@ -50,7 +50,9 @@ To be notified of selected cards implement the delegate
    }
 ```
 
-### Some `PresentCardScroller` parameters to play with
+### Configuration
+
+Some `PresentCardScroller` parameters you may wish to change:
 
 ```swift    
 	/// If true cards are initially added with an animation

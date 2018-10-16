@@ -4,7 +4,6 @@
 //
 //  Dan Federman on 2/3/17.
 //  Patrick Niemeyer
-//  Copyright © 2018 co.present. All rights reserved.
 //
 
 import Foundation

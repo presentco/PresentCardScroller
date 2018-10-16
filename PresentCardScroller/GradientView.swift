@@ -4,7 +4,6 @@
 //
 //  Dan Federman
 //  Pat Niemeyer
-//  Copyright © 2017 Present Company. All rights reserved.
 //
 
 import Foundation
