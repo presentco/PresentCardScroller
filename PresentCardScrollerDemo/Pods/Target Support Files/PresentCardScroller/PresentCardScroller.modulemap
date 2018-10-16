@@ -1,0 +1,6 @@
+framework module PresentCardScroller {
+  umbrella header "PresentCardScroller-umbrella.h"
+
+  export *
+  module * { export * }
+}

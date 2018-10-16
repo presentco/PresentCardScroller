@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A380E5CFB5098C65D54D99E1AAFAD8A /* UIView+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30014C7617DE321FB8BEB202B791C8B6 /* UIView+extensions.swift */; };
+		0C15674EFBD65DBBDC1745F8B92B0265 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797DC83DC7E7569E0610D35198E9F86F /* CardView.swift */; };
+		14007BCA51765A7F1ED683A5E0F7A266 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561BE73FFDD726771B9D95288ECB99BA /* UIKit.framework */; };
+		1A7C4E318820EC6AE20136649BC6FB45 /* Pods-PresentCardScrollerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD43701E7F79B725A6AB5AFD711BB2E /* Pods-PresentCardScrollerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232E73252041AC865881A47F8E41667A /* TinyConstraints.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F28CE837C2F02C6547178F1EA52C30 /* TinyConstraints.framework */; };
+		29F2F1C7A36DAB3CC0E954BD1642D915 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9925507666FFFBA004ADBE8CA3D1159 /* GradientView.swift */; };
+		2C3D0928A828B5B263E9A46850D40C23 /* Then.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E24A06E3BDD71E1A6F4FB496BCE7A96 /* Then.framework */; };
+		2E589B6466C099E96242DF80D09E1B79 /* Pods-PresentCardScrollerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE985889D632ACA59F0DC78F83F3DF43 /* Pods-PresentCardScrollerDemo-dummy.m */; };
+		352FB3B36D86B33F119867E432B4740E /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 835487F5B474502AF83C17984829997C /* CardViewController.swift */; };
+		44F9D0C20504AE91C569470A14FA4FC3 /* TinyConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E6F9F13DA235DA239CCCD66C0E3653 /* TinyConstraints.swift */; };
+		529F31C3DB1665238F9941EBD0D49671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */; };
+		53D0B66E27E53B710C5BBA0BEE2DA3D1 /* Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3CCB7F9E8D4889E0E2D7218486BDB /* Constraints.swift */; };
+		5FA73E637EB1BE3610460A8A9EA10A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */; };
+		6380C6AD50D54D4D06653DD7E4054497 /* PresentCardScroller-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F690D1C317C3779D08ACB65F41D50D9 /* PresentCardScroller-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		641B1F6593EB08E24C2DF1D80C8EF57F /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E83CEF242CE3DA2B258F0F8A78F15D /* CardModel.swift */; };
+		6944C3D5E480EF02769943251164651D /* DispatchQueue+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7134FCEE837B5F4C10FDF8A29A54F990 /* DispatchQueue+extensions.swift */; };
+		6A95E28B9AE337141C9B182A8AF367E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */; };
+		6B62B8793CF8A628CA25839FFB5C8FFF /* UIViewController+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19620E668FA010E198AB65EBB74D42C0 /* UIViewController+extensions.swift */; };
+		73CCA928CC28F47AA6267E38509F6723 /* TinyConstraints+superview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0540020FE905CBF25FFAA418665E721A /* TinyConstraints+superview.swift */; };
+		775A764AC74A3AD0F99ECA74C5F9E8DF /* Then-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C60FC06154B728050A63D59BB7724AB7 /* Then-dummy.m */; };
+		7DD0C4CA6EB86E74BB674982571C463A /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EC8B0BD12A6075B6DBE2737CF13101 /* Then.swift */; };
+		8F5840A1904D79C6158B7C49C49F6EF0 /* Then-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AFC798A5A4D0194BEF9F7290167DCD1 /* Then-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DFE7AC732A393B31788421D417A5170 /* TinyConstraints-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB42FC5EB4D9143D2CA6155C92533AE8 /* TinyConstraints-dummy.m */; };
+		9E766FD7380BAC63C5B8F6D20995A9ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */; };
+		9EB703870336CC5A1F57DF27843ED02C /* TinyEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6582D7061D551233FA6EBC58A63417F8 /* TinyEdgeInsets.swift */; };
+		A1FC1DD8D0B6213EDDFD620C68069418 /* TinyConstraints-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72C933E02F0367DA63CAFD984B296632 /* TinyConstraints-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5651789F6C949EF8041680234D05114 /* UIColor+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC64CC7B9BEEFACD8C397A59E39C974 /* UIColor+extensions.swift */; };
+		A58CA35881608364C8207EE2783B2682 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6EFAD8F5831ECF88BAEEFB7FA98130D /* SystemConfiguration.framework */; };
+		A710B09CE0A69FA6573485DA556F1C7F /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E5CB394CDB12953759AE967149664B /* Stack.swift */; };
+		B72D86B9DA0403E6B6F98F7C8E9AF1A9 /* ClearView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFDBDCA3D6B27BB6A295C970D9034481 /* ClearView.swift */; };
+		C224C2091367A5B6CFE55B8A2EE04276 /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5760E03AC1ACA12DE746971816FA4 /* Constrainable.swift */; };
+		C9FA3B7DA29A64977A4090C8CE4F4AF7 /* CardScrollingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F14326D29F5BE844DD205B481AD843F /* CardScrollingViewController.swift */; };
+		EEFEE8D3F7C0DC1F9E26EE29AD09C3FD /* PresentCardScroller-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A2A7ED2AE9D90830BEB4303A43C9D /* PresentCardScroller-dummy.m */; };
+		FDEAC8FE8B2311874859985B80F7524C /* Abstraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8094657C822B3428641ADC23042AAD /* Abstraction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65E9A86401F58FC392962319468FFCC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4274CD5FF2BFBCEB6597A80D7EE5F05;
+			remoteInfo = Then;
+		};
+		79571EE541C8761A092EE0FC38D16257 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4274CD5FF2BFBCEB6597A80D7EE5F05;
+			remoteInfo = Then;
+		};
+		9C57F982A3D298652FA1475C2170276F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BD7C205A27A7D6BE6FEC07DDDFAB55;
+			remoteInfo = PresentCardScroller;
+		};
+		B08DB34AA53E956308AD3E87F824A204 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01E4E696D7EBB136B5E1EAAB60CD88;
+			remoteInfo = TinyConstraints;
+		};
+		D116C7A54C8DBCAF4F7C85717B6C0608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA01E4E696D7EBB136B5E1EAAB60CD88;
+			remoteInfo = TinyConstraints;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005D476FF0136E52F418C548CE90F8C8 /* Then.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Then.modulemap; sourceTree = "<group>"; };
+		0540020FE905CBF25FFAA418665E721A /* TinyConstraints+superview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TinyConstraints+superview.swift"; path = "TinyConstraints/Classes/TinyConstraints+superview.swift"; sourceTree = "<group>"; };
+		0B0A2A7ED2AE9D90830BEB4303A43C9D /* PresentCardScroller-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PresentCardScroller-dummy.m"; sourceTree = "<group>"; };
+		0F14326D29F5BE844DD205B481AD843F /* CardScrollingViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardScrollingViewController.swift; path = PresentCardScroller/CardScrollingViewController.swift; sourceTree = "<group>"; };
+		19620E668FA010E198AB65EBB74D42C0 /* UIViewController+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+extensions.swift"; path = "PresentCardScroller/UIViewController+extensions.swift"; sourceTree = "<group>"; };
+		1A1DC47C2D90A43646C63BC4BB741F97 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinyConstraints.framework; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F690D1C317C3779D08ACB65F41D50D9 /* PresentCardScroller-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PresentCardScroller-umbrella.h"; sourceTree = "<group>"; };
+		27246687E4FDBF7142A631672433A480 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD43701E7F79B725A6AB5AFD711BB2E /* Pods-PresentCardScrollerDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PresentCardScrollerDemo-umbrella.h"; sourceTree = "<group>"; };
+		2E24A06E3BDD71E1A6F4FB496BCE7A96 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30014C7617DE321FB8BEB202B791C8B6 /* UIView+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+extensions.swift"; path = "PresentCardScroller/UIView+extensions.swift"; sourceTree = "<group>"; };
+		36E6F9F13DA235DA239CCCD66C0E3653 /* TinyConstraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyConstraints.swift; path = TinyConstraints/Classes/TinyConstraints.swift; sourceTree = "<group>"; };
+		39E83CEF242CE3DA2B258F0F8A78F15D /* CardModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardModel.swift; path = PresentCardScroller/CardModel.swift; sourceTree = "<group>"; };
+		3A0B875F95461ECD073859CBC568040F /* PresentCardScroller-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PresentCardScroller-prefix.pch"; sourceTree = "<group>"; };
+		3AFC798A5A4D0194BEF9F7290167DCD1 /* Then-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-umbrella.h"; sourceTree = "<group>"; };
+		3B04ECDDDFE77A95DFB7962E0F4943DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43D96059F364925CF426ABB364A80906 /* Pods-PresentCardScrollerDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PresentCardScrollerDemo-resources.sh"; sourceTree = "<group>"; };
+		476D0B8BDA0910FFD22008D5318D0483 /* Pods-PresentCardScrollerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PresentCardScrollerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4E298320DA85497E4CAA64944023D099 /* Then.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Then.framework; path = Then.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ECC522739A5CD9E5E7E89E6B3DE7C98 /* TinyConstraints.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyConstraints.xcconfig; sourceTree = "<group>"; };
+		501906B8C7F29D8D8490DAF1E964B1CC /* TinyConstraints.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinyConstraints.modulemap; sourceTree = "<group>"; };
+		561BE73FFDD726771B9D95288ECB99BA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		59E5CB394CDB12953759AE967149664B /* Stack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stack.swift; path = TinyConstraints/Classes/Stack.swift; sourceTree = "<group>"; };
+		5A03F3C1CBC3D755241556813F0D2871 /* Then.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Then.xcconfig; sourceTree = "<group>"; };
+		6155C21E211F1F8C57E3DFE30C56F295 /* Pods-PresentCardScrollerDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PresentCardScrollerDemo-frameworks.sh"; sourceTree = "<group>"; };
+		6582D7061D551233FA6EBC58A63417F8 /* TinyEdgeInsets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinyEdgeInsets.swift; path = TinyConstraints/Classes/TinyEdgeInsets.swift; sourceTree = "<group>"; };
+		6B0BB130E754C48C592CBD72F75312ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7134FCEE837B5F4C10FDF8A29A54F990 /* DispatchQueue+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+extensions.swift"; path = "PresentCardScroller/DispatchQueue+extensions.swift"; sourceTree = "<group>"; };
+		72C933E02F0367DA63CAFD984B296632 /* TinyConstraints-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-umbrella.h"; sourceTree = "<group>"; };
+		797DC83DC7E7569E0610D35198E9F86F /* CardView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardView.swift; path = PresentCardScroller/CardView.swift; sourceTree = "<group>"; };
+		8091A2C40F12156CA8BDAAC1E8913815 /* PresentCardScroller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PresentCardScroller.framework; path = PresentCardScroller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835487F5B474502AF83C17984829997C /* CardViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CardViewController.swift; path = PresentCardScroller/CardViewController.swift; sourceTree = "<group>"; };
+		89CE3FE0948B52F79C4FB0FE537DDA89 /* Then-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Then-prefix.pch"; sourceTree = "<group>"; };
+		8CC64CC7B9BEEFACD8C397A59E39C974 /* UIColor+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+extensions.swift"; path = "PresentCardScroller/UIColor+extensions.swift"; sourceTree = "<group>"; };
+		930D22FB52B15878D3865D0DCE397C1E /* PresentCardScroller.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PresentCardScroller.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BBC607058F9349E531E1714498D3549 /* Pods-PresentCardScrollerDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PresentCardScrollerDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5F28CE837C2F02C6547178F1EA52C30 /* TinyConstraints.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinyConstraints.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B8B5760E03AC1ACA12DE746971816FA4 /* Constrainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constrainable.swift; path = TinyConstraints/Classes/Constrainable.swift; sourceTree = "<group>"; };
+		B8F90A39A7458DF4F3C82502D7B260F0 /* Pods-PresentCardScrollerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PresentCardScrollerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BAC3CCB7F9E8D4889E0E2D7218486BDB /* Constraints.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraints.swift; path = TinyConstraints/Classes/Constraints.swift; sourceTree = "<group>"; };
+		BC8094657C822B3428641ADC23042AAD /* Abstraction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Abstraction.swift; path = TinyConstraints/Classes/Abstraction.swift; sourceTree = "<group>"; };
+		C60FC06154B728050A63D59BB7724AB7 /* Then-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Then-dummy.m"; sourceTree = "<group>"; };
+		C9E14F6E3866A31F57636ABE9BD37A08 /* PresentCardScroller.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PresentCardScroller.xcconfig; sourceTree = "<group>"; };
+		CE985889D632ACA59F0DC78F83F3DF43 /* Pods-PresentCardScrollerDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PresentCardScrollerDemo-dummy.m"; sourceTree = "<group>"; };
+		D9925507666FFFBA004ADBE8CA3D1159 /* GradientView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GradientView.swift; path = PresentCardScroller/GradientView.swift; sourceTree = "<group>"; };
+		DB42FC5EB4D9143D2CA6155C92533AE8 /* TinyConstraints-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinyConstraints-dummy.m"; sourceTree = "<group>"; };
+		E30BF682D0AFD5523D8D231A3CE68BE3 /* Pods-PresentCardScrollerDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PresentCardScrollerDemo.modulemap"; sourceTree = "<group>"; };
+		E3F971DEFFB5460BB05DFD19FEEF3CA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5EC8B0BD12A6075B6DBE2737CF13101 /* Then.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Then.swift; path = Sources/Then/Then.swift; sourceTree = "<group>"; };
+		E6EFAD8F5831ECF88BAEEFB7FA98130D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EBB0474D20F9B8B189107185DBA7A477 /* TinyConstraints-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinyConstraints-prefix.pch"; sourceTree = "<group>"; };
+		F42EECAE03632D8D099F978E5DF7B9E8 /* Pods_PresentCardScrollerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PresentCardScrollerDemo.framework; path = "Pods-PresentCardScrollerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F502402AD01EF12FA315C3C705B98240 /* Pods-PresentCardScrollerDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PresentCardScrollerDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFDBDCA3D6B27BB6A295C970D9034481 /* ClearView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ClearView.swift; path = PresentCardScroller/ClearView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D93D871AE712E96A92746483DDF3AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A95E28B9AE337141C9B182A8AF367E3 /* Foundation.framework in Frameworks */,
+				A58CA35881608364C8207EE2783B2682 /* SystemConfiguration.framework in Frameworks */,
+				2C3D0928A828B5B263E9A46850D40C23 /* Then.framework in Frameworks */,
+				232E73252041AC865881A47F8E41667A /* TinyConstraints.framework in Frameworks */,
+				14007BCA51765A7F1ED683A5E0F7A266 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		122DE895B2A7DA0196C78D1E12BACAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FA73E637EB1BE3610460A8A9EA10A46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AB75C8E90FCFEB71DE2083950CD6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E766FD7380BAC63C5B8F6D20995A9ED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4F0608A7221AED5BAFE09840B96B5E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				529F31C3DB1665238F9941EBD0D49671 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9D467590AE60AB0B1502B23B160794 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A52E46DC5857EEB16C9B5F64015CF30 /* PresentCardScroller */,
+				6C7013F4EA73B42A20ABEB40C276B579 /* Then */,
+				2040DC13E0B67C52EF371717C779A937 /* TinyConstraints */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2040DC13E0B67C52EF371717C779A937 /* TinyConstraints */ = {
+			isa = PBXGroup;
+			children = (
+				BC8094657C822B3428641ADC23042AAD /* Abstraction.swift */,
+				B8B5760E03AC1ACA12DE746971816FA4 /* Constrainable.swift */,
+				BAC3CCB7F9E8D4889E0E2D7218486BDB /* Constraints.swift */,
+				59E5CB394CDB12953759AE967149664B /* Stack.swift */,
+				36E6F9F13DA235DA239CCCD66C0E3653 /* TinyConstraints.swift */,
+				0540020FE905CBF25FFAA418665E721A /* TinyConstraints+superview.swift */,
+				6582D7061D551233FA6EBC58A63417F8 /* TinyEdgeInsets.swift */,
+				E5E800FF20789F023B3F2EACF1D545C2 /* Support Files */,
+			);
+			name = TinyConstraints;
+			path = TinyConstraints;
+			sourceTree = "<group>";
+		};
+		2A52E46DC5857EEB16C9B5F64015CF30 /* PresentCardScroller */ = {
+			isa = PBXGroup;
+			children = (
+				39E83CEF242CE3DA2B258F0F8A78F15D /* CardModel.swift */,
+				0F14326D29F5BE844DD205B481AD843F /* CardScrollingViewController.swift */,
+				797DC83DC7E7569E0610D35198E9F86F /* CardView.swift */,
+				835487F5B474502AF83C17984829997C /* CardViewController.swift */,
+				FFDBDCA3D6B27BB6A295C970D9034481 /* ClearView.swift */,
+				7134FCEE837B5F4C10FDF8A29A54F990 /* DispatchQueue+extensions.swift */,
+				D9925507666FFFBA004ADBE8CA3D1159 /* GradientView.swift */,
+				8CC64CC7B9BEEFACD8C397A59E39C974 /* UIColor+extensions.swift */,
+				30014C7617DE321FB8BEB202B791C8B6 /* UIView+extensions.swift */,
+				19620E668FA010E198AB65EBB74D42C0 /* UIViewController+extensions.swift */,
+				688B773AF996E1B94260CB7695FEE09D /* Support Files */,
+			);
+			name = PresentCardScroller;
+			path = PresentCardScroller;
+			sourceTree = "<group>";
+		};
+		30B82A71976D431631BB3BF14B79564A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B04ECDDDFE77A95DFB7962E0F4943DE /* Info.plist */,
+				005D476FF0136E52F418C548CE90F8C8 /* Then.modulemap */,
+				5A03F3C1CBC3D755241556813F0D2871 /* Then.xcconfig */,
+				C60FC06154B728050A63D59BB7724AB7 /* Then-dummy.m */,
+				89CE3FE0948B52F79C4FB0FE537DDA89 /* Then-prefix.pch */,
+				3AFC798A5A4D0194BEF9F7290167DCD1 /* Then-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Then";
+			sourceTree = "<group>";
+		};
+		4FB909EBD637FBA6C23D3AA6EF3C970C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42EECAE03632D8D099F978E5DF7B9E8 /* Pods_PresentCardScrollerDemo.framework */,
+				8091A2C40F12156CA8BDAAC1E8913815 /* PresentCardScroller.framework */,
+				4E298320DA85497E4CAA64944023D099 /* Then.framework */,
+				1A1DC47C2D90A43646C63BC4BB741F97 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		688B773AF996E1B94260CB7695FEE09D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F971DEFFB5460BB05DFD19FEEF3CA5 /* Info.plist */,
+				930D22FB52B15878D3865D0DCE397C1E /* PresentCardScroller.modulemap */,
+				C9E14F6E3866A31F57636ABE9BD37A08 /* PresentCardScroller.xcconfig */,
+				0B0A2A7ED2AE9D90830BEB4303A43C9D /* PresentCardScroller-dummy.m */,
+				3A0B875F95461ECD073859CBC568040F /* PresentCardScroller-prefix.pch */,
+				1F690D1C317C3779D08ACB65F41D50D9 /* PresentCardScroller-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PresentCardScroller";
+			sourceTree = "<group>";
+		};
+		6C7013F4EA73B42A20ABEB40C276B579 /* Then */ = {
+			isa = PBXGroup;
+			children = (
+				E5EC8B0BD12A6075B6DBE2737CF13101 /* Then.swift */,
+				30B82A71976D431631BB3BF14B79564A /* Support Files */,
+			);
+			name = Then;
+			path = Then;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7FD4D9979DB3E1A22F0EAC85A6226396 /* Frameworks */,
+				1B9D467590AE60AB0B1502B23B160794 /* Pods */,
+				4FB909EBD637FBA6C23D3AA6EF3C970C /* Products */,
+				DC89AFC7255CFC352486B7126403F4EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7FD4D9979DB3E1A22F0EAC85A6226396 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E24A06E3BDD71E1A6F4FB496BCE7A96 /* Then.framework */,
+				A5F28CE837C2F02C6547178F1EA52C30 /* TinyConstraints.framework */,
+				C291A2CB9C6C0B80661F4A290DC55E30 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C291A2CB9C6C0B80661F4A290DC55E30 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8A8E40B494DFAEA8DF5C1342405706A /* Foundation.framework */,
+				E6EFAD8F5831ECF88BAEEFB7FA98130D /* SystemConfiguration.framework */,
+				561BE73FFDD726771B9D95288ECB99BA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DC89AFC7255CFC352486B7126403F4EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2337C99D07A1EC1980E07BFBC55C61A /* Pods-PresentCardScrollerDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E2337C99D07A1EC1980E07BFBC55C61A /* Pods-PresentCardScrollerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				27246687E4FDBF7142A631672433A480 /* Info.plist */,
+				E30BF682D0AFD5523D8D231A3CE68BE3 /* Pods-PresentCardScrollerDemo.modulemap */,
+				F502402AD01EF12FA315C3C705B98240 /* Pods-PresentCardScrollerDemo-acknowledgements.markdown */,
+				9BBC607058F9349E531E1714498D3549 /* Pods-PresentCardScrollerDemo-acknowledgements.plist */,
+				CE985889D632ACA59F0DC78F83F3DF43 /* Pods-PresentCardScrollerDemo-dummy.m */,
+				6155C21E211F1F8C57E3DFE30C56F295 /* Pods-PresentCardScrollerDemo-frameworks.sh */,
+				43D96059F364925CF426ABB364A80906 /* Pods-PresentCardScrollerDemo-resources.sh */,
+				2DD43701E7F79B725A6AB5AFD711BB2E /* Pods-PresentCardScrollerDemo-umbrella.h */,
+				B8F90A39A7458DF4F3C82502D7B260F0 /* Pods-PresentCardScrollerDemo.debug.xcconfig */,
+				476D0B8BDA0910FFD22008D5318D0483 /* Pods-PresentCardScrollerDemo.release.xcconfig */,
+			);
+			name = "Pods-PresentCardScrollerDemo";
+			path = "Target Support Files/Pods-PresentCardScrollerDemo";
+			sourceTree = "<group>";
+		};
+		E5E800FF20789F023B3F2EACF1D545C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B0BB130E754C48C592CBD72F75312ED /* Info.plist */,
+				501906B8C7F29D8D8490DAF1E964B1CC /* TinyConstraints.modulemap */,
+				4ECC522739A5CD9E5E7E89E6B3DE7C98 /* TinyConstraints.xcconfig */,
+				DB42FC5EB4D9143D2CA6155C92533AE8 /* TinyConstraints-dummy.m */,
+				EBB0474D20F9B8B189107185DBA7A477 /* TinyConstraints-prefix.pch */,
+				72C933E02F0367DA63CAFD984B296632 /* TinyConstraints-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyConstraints";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3141BE4DFE5BC8817AE128B475887797 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7C4E318820EC6AE20136649BC6FB45 /* Pods-PresentCardScrollerDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7E96546BB60464E526DA9CA39FCE328 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FC1DD8D0B6213EDDFD620C68069418 /* TinyConstraints-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC90E48948F520E8EEF5E37FC1835DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F5840A1904D79C6158B7C49C49F6EF0 /* Then-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D51E464CA8CFDDF5E697A9CAD4FAD721 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6380C6AD50D54D4D06653DD7E4054497 /* PresentCardScroller-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		095F9E39CC293A48F17D0289BE5BA208 /* Pods-PresentCardScrollerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1B5D42F46E9AEC4A31B1D4FAC283C03 /* Build configuration list for PBXNativeTarget "Pods-PresentCardScrollerDemo" */;
+			buildPhases = (
+				3141BE4DFE5BC8817AE128B475887797 /* Headers */,
+				A67BFE27ADEEA1410B23E9ECDB0FCC1B /* Sources */,
+				44AB75C8E90FCFEB71DE2083950CD6CD /* Frameworks */,
+				3ACBC72554A9C7A8F5F9DBBB8261DC6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3F79C87DD2DDF9E8590D383137BDDC2 /* PBXTargetDependency */,
+				1088AE54594D515D24EE8BF91C5F9AC8 /* PBXTargetDependency */,
+				6D28145A5C9EAE10F61B62585D255B90 /* PBXTargetDependency */,
+			);
+			name = "Pods-PresentCardScrollerDemo";
+			productName = "Pods-PresentCardScrollerDemo";
+			productReference = F42EECAE03632D8D099F978E5DF7B9E8 /* Pods_PresentCardScrollerDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		10BD7C205A27A7D6BE6FEC07DDDFAB55 /* PresentCardScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD17609516EDB552A9B25FFF0C71B48 /* Build configuration list for PBXNativeTarget "PresentCardScroller" */;
+			buildPhases = (
+				D51E464CA8CFDDF5E697A9CAD4FAD721 /* Headers */,
+				4CD0F54503DEF3ABDEBF8E98892C62E8 /* Sources */,
+				0D93D871AE712E96A92746483DDF3AD9 /* Frameworks */,
+				42A79F20C90C0BFCC709C6F86495F3B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B55ABD54F1D25B6E75E16123F642EC60 /* PBXTargetDependency */,
+				618C7621DA556016F27C7BB0939C70BD /* PBXTargetDependency */,
+			);
+			name = PresentCardScroller;
+			productName = PresentCardScroller;
+			productReference = 8091A2C40F12156CA8BDAAC1E8913815 /* PresentCardScroller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AA01E4E696D7EBB136B5E1EAAB60CD88 /* TinyConstraints */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C0AC68A01F80D390773D2F2CB15D13F /* Build configuration list for PBXNativeTarget "TinyConstraints" */;
+			buildPhases = (
+				B7E96546BB60464E526DA9CA39FCE328 /* Headers */,
+				89B0C473C4CEC4CC1848B04D4CD7525C /* Sources */,
+				A4F0608A7221AED5BAFE09840B96B5E8 /* Frameworks */,
+				49670B16DBD3D43BFE42AFA314315D3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TinyConstraints;
+			productName = TinyConstraints;
+			productReference = 1A1DC47C2D90A43646C63BC4BB741F97 /* TinyConstraints.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4274CD5FF2BFBCEB6597A80D7EE5F05 /* Then */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2048028B40B537AD7642097A97AEC4 /* Build configuration list for PBXNativeTarget "Then" */;
+			buildPhases = (
+				BEC90E48948F520E8EEF5E37FC1835DD /* Headers */,
+				34E68EF2ADCD49EDBB844D64A06A9122 /* Sources */,
+				122DE895B2A7DA0196C78D1E12BACAC7 /* Frameworks */,
+				06642E5834F74DC558C89A423B639E11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Then;
+			productName = Then;
+			productReference = 4E298320DA85497E4CAA64944023D099 /* Then.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4FB909EBD637FBA6C23D3AA6EF3C970C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				095F9E39CC293A48F17D0289BE5BA208 /* Pods-PresentCardScrollerDemo */,
+				10BD7C205A27A7D6BE6FEC07DDDFAB55 /* PresentCardScroller */,
+				C4274CD5FF2BFBCEB6597A80D7EE5F05 /* Then */,
+				AA01E4E696D7EBB136B5E1EAAB60CD88 /* TinyConstraints */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06642E5834F74DC558C89A423B639E11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACBC72554A9C7A8F5F9DBBB8261DC6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A79F20C90C0BFCC709C6F86495F3B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49670B16DBD3D43BFE42AFA314315D3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34E68EF2ADCD49EDBB844D64A06A9122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				775A764AC74A3AD0F99ECA74C5F9E8DF /* Then-dummy.m in Sources */,
+				7DD0C4CA6EB86E74BB674982571C463A /* Then.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CD0F54503DEF3ABDEBF8E98892C62E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641B1F6593EB08E24C2DF1D80C8EF57F /* CardModel.swift in Sources */,
+				C9FA3B7DA29A64977A4090C8CE4F4AF7 /* CardScrollingViewController.swift in Sources */,
+				0C15674EFBD65DBBDC1745F8B92B0265 /* CardView.swift in Sources */,
+				352FB3B36D86B33F119867E432B4740E /* CardViewController.swift in Sources */,
+				B72D86B9DA0403E6B6F98F7C8E9AF1A9 /* ClearView.swift in Sources */,
+				6944C3D5E480EF02769943251164651D /* DispatchQueue+extensions.swift in Sources */,
+				29F2F1C7A36DAB3CC0E954BD1642D915 /* GradientView.swift in Sources */,
+				EEFEE8D3F7C0DC1F9E26EE29AD09C3FD /* PresentCardScroller-dummy.m in Sources */,
+				A5651789F6C949EF8041680234D05114 /* UIColor+extensions.swift in Sources */,
+				0A380E5CFB5098C65D54D99E1AAFAD8A /* UIView+extensions.swift in Sources */,
+				6B62B8793CF8A628CA25839FFB5C8FFF /* UIViewController+extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89B0C473C4CEC4CC1848B04D4CD7525C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDEAC8FE8B2311874859985B80F7524C /* Abstraction.swift in Sources */,
+				C224C2091367A5B6CFE55B8A2EE04276 /* Constrainable.swift in Sources */,
+				53D0B66E27E53B710C5BBA0BEE2DA3D1 /* Constraints.swift in Sources */,
+				A710B09CE0A69FA6573485DA556F1C7F /* Stack.swift in Sources */,
+				73CCA928CC28F47AA6267E38509F6723 /* TinyConstraints+superview.swift in Sources */,
+				9DFE7AC732A393B31788421D417A5170 /* TinyConstraints-dummy.m in Sources */,
+				44F9D0C20504AE91C569470A14FA4FC3 /* TinyConstraints.swift in Sources */,
+				9EB703870336CC5A1F57DF27843ED02C /* TinyEdgeInsets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A67BFE27ADEEA1410B23E9ECDB0FCC1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E589B6466C099E96242DF80D09E1B79 /* Pods-PresentCardScrollerDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1088AE54594D515D24EE8BF91C5F9AC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C4274CD5FF2BFBCEB6597A80D7EE5F05 /* Then */;
+			targetProxy = 65E9A86401F58FC392962319468FFCC9 /* PBXContainerItemProxy */;
+		};
+		618C7621DA556016F27C7BB0939C70BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = AA01E4E696D7EBB136B5E1EAAB60CD88 /* TinyConstraints */;
+			targetProxy = D116C7A54C8DBCAF4F7C85717B6C0608 /* PBXContainerItemProxy */;
+		};
+		6D28145A5C9EAE10F61B62585D255B90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyConstraints;
+			target = AA01E4E696D7EBB136B5E1EAAB60CD88 /* TinyConstraints */;
+			targetProxy = B08DB34AA53E956308AD3E87F824A204 /* PBXContainerItemProxy */;
+		};
+		B55ABD54F1D25B6E75E16123F642EC60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Then;
+			target = C4274CD5FF2BFBCEB6597A80D7EE5F05 /* Then */;
+			targetProxy = 79571EE541C8761A092EE0FC38D16257 /* PBXContainerItemProxy */;
+		};
+		E3F79C87DD2DDF9E8590D383137BDDC2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PresentCardScroller;
+			target = 10BD7C205A27A7D6BE6FEC07DDDFAB55 /* PresentCardScroller */;
+			targetProxy = 9C57F982A3D298652FA1475C2170276F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23FB859DA0018DA3B558E623C39A20A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476D0B8BDA0910FFD22008D5318D0483 /* Pods-PresentCardScrollerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PresentCardScrollerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PresentCardScrollerDemo/Pods-PresentCardScrollerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3262D8F5B1F74088E8FC6B5E4D463E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E14F6E3866A31F57636ABE9BD37A08 /* PresentCardScroller.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PresentCardScroller/PresentCardScroller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PresentCardScroller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PresentCardScroller/PresentCardScroller.modulemap";
+				PRODUCT_MODULE_NAME = PresentCardScroller;
+				PRODUCT_NAME = PresentCardScroller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3B7E863B3183B44BFA17F8ECC093D656 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A03F3C1CBC3D755241556813F0D2871 /* Then.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F61C4EF117AC39248BA1D724F35CBD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECC522739A5CD9E5E7E89E6B3DE7C98 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F80FD4778021962D7DBC453339898E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9E14F6E3866A31F57636ABE9BD37A08 /* PresentCardScroller.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PresentCardScroller/PresentCardScroller-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PresentCardScroller/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PresentCardScroller/PresentCardScroller.modulemap";
+				PRODUCT_MODULE_NAME = PresentCardScroller;
+				PRODUCT_NAME = PresentCardScroller;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C8680B343AB389C464A1CDAF02D8B004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8F90A39A7458DF4F3C82502D7B260F0 /* Pods-PresentCardScrollerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PresentCardScrollerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PresentCardScrollerDemo/Pods-PresentCardScrollerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBCDA8E77D9D1D6350C17F30B892D619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A03F3C1CBC3D755241556813F0D2871 /* Then.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Then/Then-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Then/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Then/Then.modulemap";
+				PRODUCT_MODULE_NAME = Then;
+				PRODUCT_NAME = Then;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EBE8A8D43FC60359F32C9BEB5A8D6155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ECC522739A5CD9E5E7E89E6B3DE7C98 /* TinyConstraints.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinyConstraints/TinyConstraints-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinyConstraints/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TinyConstraints/TinyConstraints.modulemap";
+				PRODUCT_MODULE_NAME = TinyConstraints;
+				PRODUCT_NAME = TinyConstraints;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C0AC68A01F80D390773D2F2CB15D13F /* Build configuration list for PBXNativeTarget "TinyConstraints" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE8A8D43FC60359F32C9BEB5A8D6155 /* Debug */,
+				3F61C4EF117AC39248BA1D724F35CBD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD17609516EDB552A9B25FFF0C71B48 /* Build configuration list for PBXNativeTarget "PresentCardScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3262D8F5B1F74088E8FC6B5E4D463E3A /* Debug */,
+				3F80FD4778021962D7DBC453339898E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1B5D42F46E9AEC4A31B1D4FAC283C03 /* Build configuration list for PBXNativeTarget "Pods-PresentCardScrollerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8680B343AB389C464A1CDAF02D8B004 /* Debug */,
+				23FB859DA0018DA3B558E623C39A20A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2048028B40B537AD7642097A97AEC4 /* Build configuration list for PBXNativeTarget "Then" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7E863B3183B44BFA17F8ECC093D656 /* Debug */,
+				DBCDA8E77D9D1D6350C17F30B892D619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

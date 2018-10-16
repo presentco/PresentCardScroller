@@ -1,0 +1,6 @@
+framework module Pods_PresentCardScrollerDemo {
+  umbrella header "Pods-PresentCardScrollerDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

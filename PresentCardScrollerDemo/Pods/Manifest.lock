@@ -1,0 +1,32 @@
+PODS:
+  - PresentCardScroller (1.0.0):
+    - Then
+    - TinyConstraints
+  - Then (2.4.0)
+  - TinyConstraints (3.3.0)
+
+DEPENDENCIES:
+  - PresentCardScroller (from `https://github.com/presentco/PresentCardScroller.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Then
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  PresentCardScroller:
+    :git: https://github.com/presentco/PresentCardScroller.git
+
+CHECKOUT OPTIONS:
+  PresentCardScroller:
+    :commit: 976e46c9d49de661c9d31a63189667b7e949bb1a
+    :git: https://github.com/presentco/PresentCardScroller.git
+
+SPEC CHECKSUMS:
+  PresentCardScroller: 0f1a39a5116fad445798c5417049e2ac7e736bfa
+  Then: 71866660c7af35a7343831f7668e7cd2b62ee0f2
+  TinyConstraints: 6d0e495e72372556b31a0cc9b60983d5f780ef2f
+
+PODFILE CHECKSUM: 672cdc87e3d8e6dcdbf189d819dc2399b02b5c62
+
+COCOAPODS: 1.5.3
