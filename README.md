@@ -1,6 +1,6 @@
 # PresentCardScroller
 
-Pleasant Scrolling Cards UI in Swift
+A Pretty Card Scrolling UI in Swift.
 
 <table>
 <tr>
@@ -51,7 +51,7 @@ To be notified of selected cards implement the delegate:
 
 ### Configuration
 
-Some `PresentCardScroller` parameters you may wish to change:
+Some `PresentCardScroller` parameters you may wish to change along with their default values:
 
 ```swift    
 	/// If true cards are initially added with an animation

@@ -2,6 +2,7 @@
 //  CardScrollingViewController.swift
 //
 //  Created by Patrick Niemeyer on 2/16/16.
+//  Martin Mroz
 //
 
 import CoreGraphics
